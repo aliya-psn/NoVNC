@@ -1,0 +1,49 @@
+{
+  "name": "novnc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "serve:local": "vue-cli-service serve --mode local",
+    "build": "vue-cli-service build --mode production",
+    "build:dev": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint",
+    "format": "prettier --write \"src/**/*.vue\""
+  },
+  "dependencies": {
+    "@novnc/novnc": "^1.4.0",
+    "axios": "^1.5.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.14",
+    "iconv-lite": "^0.6.3",
+    "novnc-core": "^0.3.0",
+    "nprogress": "^0.2.0",
+    "sass": "^1.69.2",
+    "svg-sprite-loader": "^6.0.11",
+    "vue": "^2.6.11",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.6.2",
+    "webpack": "^4.47.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.8",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^3.1.0",
+    "sass-loader": "^10.4.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.10.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
