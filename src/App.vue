@@ -1,5 +1,6 @@
 <template>
     <div id="app" class="fillcontain">
+        <div>VNC</div>
         <transition name="fade" mode="out-in">
             <router-view></router-view>
         </transition>
